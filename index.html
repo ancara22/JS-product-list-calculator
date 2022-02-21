@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+   <div id="calculator">
+        <div class="item-block">
+            <label for="first">Товар 1: </label>
+            <input type="date-range"  name="first" class="date_range" placeholder="dd-mm-YYYY to dd-mm-YYYY" >
+            <span class="result">---</span>
+        </div>
+        <div class="item-block">
+            <label for="first">Товар 2: </label>
+            <input type="date-range"  name="first" class="date_range" placeholder="dd-mm-YYYY to dd-mm-YYYY" >
+            <span class="result">---</span>
+        </div>
+        <div class="item-block">
+            <label for="first">Товар 3: </label>
+            <input type="date-range"  name="first" class="date_range" placeholder="dd-mm-YYYY to dd-mm-YYYY" >
+            <span class="result">---</span>
+        </div>
+        <div class="item-block">
+            <label for="first">Товар 4: </label>
+            <input type="date-range"  name="first" class="date_range" placeholder="dd-mm-YYYY to dd-mm-YYYY" >
+            <span class="result">---</span>
+        </div>
+        <div class="item-block">
+            <label for="first">Товар 5: </label>
+            <input type="date-range"  multiple name="first" class="date_range" placeholder="dd-mm-YYYY to dd-mm-YYYY" >
+            <span class="result">---</span>
+        </div>
+        <div id="total">
+            <span>Total:</span>
+            <span id="total_price" >---</span>
+        </div>
+    
+    </div>
+   
+   
+    <script defer src="./script/script.js"></script>
+</body>
+</html>
